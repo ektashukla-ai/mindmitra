@@ -1,0 +1,50 @@
+Topic: Anxiety
+Language: English
+Q: What are some physical symptoms of anxiety?
+A: Anxiety can cause rapid heart rate, shortness of breath, chest tightness, and muscle tension. Try grounding techniques.
+
+Topic: Anxiety
+Language: Hindi
+Q: चिंता के कुछ शारीरिक लक्षण क्या हैं?
+A: चिंता के समय दिल की धड़कन तेज़ हो सकती है, सांस लेने में कठिनाई हो सकती है, और मांसपेशियों में तनाव हो सकता है।
+
+Topic: Depression
+Language: English
+Q: How do I know if I'm experiencing depression?
+A: Look for persistent sadness, low energy, loss of interest in activities, and changes in sleep or appetite.
+
+Topic: Depression
+Language: Hindi
+Q: मैं कैसे पहचानूं कि मुझे अवसाद है?
+A: लगातार उदासी, थकान, रुचियों में कमी, नींद या भूख में बदलाव अवसाद के लक्षण हो सकते हैं।
+
+Topic: Loneliness
+Language: English
+Q: What should I do when I feel very lonely?
+A: Reach out to a trusted friend or support group. Even a short message can help you feel more connected.
+
+Topic: Loneliness
+Language: Hindi
+Q: जब मुझे बहुत अकेलापन महसूस होता है तो मैं क्या करूं?
+A: किसी भरोसेमंद दोस्त या सपोर्ट ग्रुप से बात करें। एक छोटा संदेश भी जुड़ाव महसूस कराने में मदद कर सकता है।
+
+Topic: Sleep Issues
+Language: English
+Q: Why can't I sleep even when I feel exhausted?
+A: Mental stress or anxiety can make it hard to fall asleep. Try journaling or calming music.
+
+Topic: Sleep Issues
+Language: Hindi
+Q: थकावट के बावजूद मैं सो क्यों नहीं पाता/पाती?
+A: मानसिक तनाव के कारण नींद नहीं आती। शांत संगीत या डायरी लिखना मदद कर सकता है।
+
+Topic: Self-esteem
+Language: English
+Q: How do I improve my self-worth?
+A: Remind yourself of your strengths and accomplishments. Practice self-compassion and affirmations.
+
+Topic: Self-esteem
+Language: Hindi
+Q: मैं आत्म-सम्मान कैसे बढ़ा सकता/सकती हूं?
+A: अपनी अच्छाइयों और उपलब्धियों को याद करें। खुद के प्रति दयालु रहें और सकारात्मक बातें दोहराएं।
+
