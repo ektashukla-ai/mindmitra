@@ -1,6 +1,6 @@
 # mindmitra
 
-> **Project Status**: Work in Progress (⚙️ Auth Service Ready)
+> **Project Status**: Work in Progress (Auth and Chatbot Service Ready)
 
 ---
 
@@ -23,7 +23,7 @@ I wanted to build something beyond business demos — something that:
 - Uses **modern engineering practices** (clean architecture, security, modularity)
 - Could act as a **portfolio centerpiece** for ML/AI/Backend-focused roles
 
-This project serves as a **learning-ground for real production systems**, not copy-paste AI toy examples. Every microservice is designed with extensibility, security, and cloud readiness in mind.
+This project serves as a **learning-ground for real production systems**. Every microservice is designed with extensibility, security, and cloud readiness in mind.
 
 ---
 
@@ -33,7 +33,7 @@ This project serves as a **learning-ground for real production systems**, not co
 | Service | Technology |
 |--------|------------|
 | Auth Service | FastAPI + PostgreSQL + JWT |
-| Chatbot Core | FastAPI + LangChain + LLM APIs + Vector DB (Weaviate) |
+| Chatbot Core | FastAPI + LangChain + LLM APIs + Vector DB (ChromaDB) |
 | Message Service | FastAPI + MongoDB (Chat History) |
 | User Profile Service | FastAPI + PostgreSQL |
 
@@ -46,7 +46,7 @@ This project serves as a **learning-ground for real production systems**, not co
 - (Upcoming) Kubernetes YAMLs for scalable cloud deploy
 
 ### 📈 Monitoring & Logging
-- Prometheus + Grafana + Loki
+- Prometheus + Grafana
 
 ### 🔐 Security
 - JWT Auth + RBAC
@@ -61,7 +61,7 @@ This project serves as a **learning-ground for real production systems**, not co
 This project follows a **modular monorepo** design.
 
 ```
-mental-health-chatbot/
+mindmitra/
 ├── auth-service/           🔐 Login, JWT, register
 ├── chatbot-core/           🤖 Intent classification, RAG + LLM
 ├── message-service/        💬 Chat history DB
@@ -72,7 +72,7 @@ mental-health-chatbot/
 └── docs/                   📄 Architecture diagrams
 ```
 
-Each service communicates via REST now, with a plan to adopt **gRPC or event-based queues** (Kafka or NATS) later.
+Each service communicates via REST now, with a plan to adopt **gRPC or event-based queues** (Kafka) later.
 
 We follow **hexagonal architecture** in each service and adhere to patterns like **Factory, Strategy, and Repository** to keep things clean and extensible.
 
@@ -84,10 +84,10 @@ We follow **hexagonal architecture** in each service and adhere to patterns like
 |--------|----------|
 | 2–3 Billion Users | Global load balancer + CDN + multi-region replicas |
 | Database | Sharded PostgreSQL / MongoDB Atlas / Spanner |
-| Memory Context | Redis + Vector DB (Weaviate / Pinecone) |
+| Memory Context | Redis + Vector DB (Chroma / Pinecone) |
 | LLM Latency | Warmed inference pools + async retry queues |
 | Security | End-to-end TLS + RBAC + Zero Trust APIs |
-| Monitoring | Grafana + Prometheus + Loki logs per service |
+| Monitoring | Grafana + Prometheus logs per service |
 | Disaster Recovery | Replication + static fallback intents + offline flow |
 
 ---
@@ -102,23 +102,9 @@ We follow **hexagonal architecture** in each service and adhere to patterns like
 
 ---
 
-## 📅 What’s Next (Next 4-5 Hours Plan)
-
-1. Push `chatbot-core`, `message-service`, and `user-profile-service`
-2. Add shared Docker Compose file for local development
-3. Create README files inside each service folder
-4. Build the basic chatbot-core with FastAPI + OpenAI API + intent router
-5. Add CI/CD via GitHub Actions for service-level testing
-
----
-
 ## 🙌 Contribution & Feedback
 
 This is a solo project for now, but feel free to suggest features, report bugs, or give me architectural feedback.
-
-> **If you're a recruiter or engineer reviewing this**, this project reflects my real hands-on backend/ML experience and my obsession with production-grade quality. ❤️
-
----
 
 ## 📜 License
 MIT License — Feel free to fork and build upon it!
